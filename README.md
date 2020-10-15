@@ -1,5 +1,11 @@
-# comp0035_group_template
-Repository for the COMP0035 group coursework
+# Group 16
+Repository for the COMP0035 group coursework for Group 16
+
+Aidan Coyne
+Tiffany Yu
+Oreeditse Mogobye
+Monkgogi Galeitsiwe
+Raluca Paiajen
 
 Please change the content of this README file:
 
