@@ -1,5 +1,6 @@
 # Aidan Coyne
 
+
 class CountryData:
     def __init__(self, country, num_visits, amount_spent, total_nights, purpose, stay_duration):
         self.country = country
@@ -10,7 +11,7 @@ class CountryData:
         self.stay_duration = stay_duration
 
     def get_info_for_year(self, year):
-        """Return data for specific year"""
+        """Return list of data for specific year"""
 
     def info_for_year_and_quarter(self, year, quarter):
         """Return data for year and specific quarter"""
