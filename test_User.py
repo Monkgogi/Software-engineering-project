@@ -1,5 +1,6 @@
 from unittest import TestCase
 
+
 class TestUser(TestCase):
     def test_reset_password(self):
         self.fail()
