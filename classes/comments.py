@@ -3,14 +3,15 @@
 from datetime import datetime
 
 class Comment:
-    def __init__(self, userID, text, score=None):
+    def __init__(self, userID, commentText, score=0):
         self.userID = userID
-        self.fulfilmentText = text
+        self.fulfilmentText = commentText
         self.score = score
         self.time = datetime.now()
 
     def upvote(self):
         """Upvote comment"""
+        self.score += 1
 
     def downvote(self):
         """Downvote comment"""
