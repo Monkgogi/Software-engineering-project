@@ -12,7 +12,7 @@ class User:
     def change_name(self, fullname):
         self.fullname = 'enter fullname'
         return fullname
-
+# this class changes the log in details
     def change_login(self,email):
         self.email = 'enter new email'
         return email
