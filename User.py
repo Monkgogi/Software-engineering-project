@@ -1,5 +1,6 @@
 class User:
     #defining the classes
+    #the first class resets the password
     def __init__(self, username, password, email, fullname):
         self.username = username
         self.password = password
