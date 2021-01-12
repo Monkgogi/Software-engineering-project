@@ -1,5 +1,3 @@
-# Tiffany
-
 import unittest
 from comments import *
 
