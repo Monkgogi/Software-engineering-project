@@ -1,14 +1,13 @@
 # Aidan Coyne
 
-
 class CountryData:
-    def __init__(self, country, num_visits, amount_spent, total_nights, purpose, stay_duration):
+    def __init__(self, country, num_visits, total_spent, nights, purpose, stay_dur):
         self.country = country
         self.num_visits = num_visits
-        self.amount_spent = amount_spent
-        self.total_nights = total_nights
+        self.total_spent = total_spent
+        self.nights = nights
         self.purpose = purpose
-        self.stay_duration = stay_duration
+        self.stay_dur = stay_dur
 
     def get_info_for_year(self, year):
         """Return list of data for specific year"""
