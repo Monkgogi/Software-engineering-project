@@ -1,5 +1,4 @@
 #Raluca-Irina Paiajen
-#13th Jan 2021
 
 import matplotlib.pyplot as plt
 
