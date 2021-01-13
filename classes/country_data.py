@@ -1,4 +1,6 @@
 # Aidan Coyne
+# 12 January 2021
+
 
 class CountryData:
     def __init__(self, country, num_visits, total_spent, nights, purpose, stay_dur):
