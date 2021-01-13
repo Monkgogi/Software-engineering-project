@@ -1,6 +1,4 @@
 # Aidan Coyne
-# 12 January 2021
-# Video comment
 
 
 class CountryData:
@@ -19,4 +17,4 @@ class CountryData:
         """Return data for year and specific quarter"""
 
     def get_travel_purpose_vals(self):
-        return self.purpose
+        """Return purposes for travel"""
